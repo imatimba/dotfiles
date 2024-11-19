@@ -1,0 +1,41 @@
+{
+    "close_to_tray": true,
+    "colors": {
+        "is_airing": "0,5",
+        "is_playing": "0,12",
+        "is_queued": "0,2",
+        "new_episode": "0,1",
+        "not_aired": "0,4",
+        "progress_bg": "#F5F5F5",
+        "progress_complete": "#00D200",
+        "progress_fg": "#74C0FA",
+        "progress_sub_bg": "#D2D2D2",
+        "progress_sub_fg": "#5187B1"
+    },
+    "columns_per_api": false,
+    "columns_state": "AAAA/wAAAAAAAAABAAAAAQAAAAcBAAAAAAAAAAAAAAAMYQ8AAAAHAAAAAAAAAGQAAAAJAAAAZAAAAAgAAABkAAAACwAAAGQAAAAKAAAAZAAAAAUAAABkAAAABgAAAGQAAAbRAAAADAEBAAAAAAAAAQAAAAAAAABk/////wAAAIQAAAAAAAAADAAAAAAAAAABAAAAAAAABaUAAAABAAAAAQAAAEYAAAABAAAAAgAAADcAAAABAAAAAgAAAEsAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAGQAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAA+gAAAAAAA==",
+    "episodebar_style": 1,
+    "episodebar_text": false,
+    "filter_bar_position": 2,
+    "filter_global": false,
+    "inline_edit": true,
+    "last_height": 1008,
+    "last_width": 1920,
+    "last_x": 0,
+    "last_y": 0,
+    "notifications": true,
+    "remember_columns": true,
+    "remember_geometry": true,
+    "show_tray": true,
+    "sort_index": 7,
+    "sort_order": 1,
+    "start_in_tray": true,
+    "tray_api_icon": true,
+    "visible_columns": [
+        "Title",
+        "Progress",
+        "Score",
+        "Percent",
+        "My finish"
+    ]
+}
