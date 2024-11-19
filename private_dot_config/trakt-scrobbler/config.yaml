@@ -1,0 +1,10 @@
+
+
+fileinfo:
+    whitelist: [/mnt/data/downloads/torrents, /mnt/media1/torrents, /mnt/media2/torrents]
+    include_regexes:
+        episode: ['.*]\s(?P<title>.+?)\sS(?P<season>\d+)\s-\s(?P<episode>\d+).*']
+
+players:
+    monitored: [mpv]
+version: '1.0'

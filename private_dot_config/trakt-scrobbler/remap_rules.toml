@@ -1,0 +1,7 @@
+[[rules]]
+# specify which media you want to override
+match.title = "2.5-jigen no Ririsa"
+
+# now, specify the override
+type = "episode"
+id.trakt_slug = "2-5-dimensional-seduction" # (got the slug from url)
