@@ -88,4 +88,5 @@ source "$BASH_IT"/bash_it.sh
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
-eval $(keychain --eval --quiet id_ed25519)
+eval "$(keychain --eval --quiet id_ed25519)"
+eval "$(register-python-argcomplete pipx)"
