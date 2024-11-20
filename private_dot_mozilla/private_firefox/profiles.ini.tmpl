@@ -1,13 +1,27 @@
+{{- $osid := .chezmoi.os -}}
+{{- if hasKey .chezmoi.osRelease "id" -}}
+{{- 	$osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id -}}
+{{- end -}}
+
+[data]
+    osid = {{ $osid | quote }}
+
+{{ if eq .osid "linux-opensuse-tumbleweed" }}
+
+{{ 	$mozillaHash = mozillaInstallHash "/usr/lib64/firefox" }}
+
 [Profile0]
 Name=default-release
 IsRelative=1
-Path=ejayhvdq.default-release
+Path=default-release
+Default=1
 
 [General]
 StartWithLastProfile=1
 Version=2
 
-[Install11457493C5A56847]
-Default=ejayhvdq.default-release
+[Install{{- $mozillaHash -}}]
+Default=default-release
 Locked=1
 
+{{ end }}
